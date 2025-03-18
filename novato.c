@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
     //Declaração de variaveis  para a primeira carta
+    
     char Estado[15];
     char Codigodacarta[4];
     char Cidade[15];
