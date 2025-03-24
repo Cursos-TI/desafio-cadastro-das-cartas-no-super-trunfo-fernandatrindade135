@@ -14,7 +14,7 @@ int main() {
     char Estado2[30] = "Rio de Janeiro";
     char Codigodacarta2[4] = "2";
     char Cidade2[30] = "Rio de Janeiro";
-    int Populacao2 = 36655699;
+    int Populacao2 = 366899;
     float area_em_km2 = 6331.444877;
     float PIB2 = 96622.233;
     int Pontosturisticos2 = 30;
@@ -42,7 +42,7 @@ int main() {
     printf("Desafio novato!\n");
     printf("Carta 2\n");
     printf("Digite o Estado2:\n");
-    scanf("%s", Estado2);
+    scanf("%s", Estado1);
     printf("Digite o codigo da carta:\n");
     scanf("%s", Codigodacarta2);
     printf("Digite a cidade2:\n");
@@ -50,10 +50,11 @@ int main() {
     printf("Digite a populacao2:\n");
     scanf("%d", &Populacao2);
     printf("Digite area_em_km:\n");
-    scanf("%f", &area_em_km1);
+    scanf("%f", &area_em_km2);
     printf("Digite o PIB2:\n ");
     scanf("%f", &PIB2);
     printf("Digite os Pontos turísticos:\n");
     scanf("%d", &Pontosturisticos2);
+
     return 0;
 }
