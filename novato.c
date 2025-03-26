@@ -40,9 +40,9 @@ int main() {
 
     // Entrada e saida da segunda carta
     printf("Desafio novato!\n");
-    printf("Carta 2\n");
+    printf("Carta2\n");
     printf("Digite o Estado2:\n");
-    scanf("%s", Estado1);
+    scanf("%s", Estado2);
     printf("Digite o codigo da carta:\n");
     scanf("%s", Codigodacarta2);
     printf("Digite a cidade2:\n");
